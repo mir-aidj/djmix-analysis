@@ -1,5 +1,8 @@
 # Summary
 
+{:toc}
+
+
 ![mix genre counts](img/mix_genre.svg?raw=true)
 
 <p align="center">
