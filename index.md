@@ -3,14 +3,15 @@
 ![mix genre counts](img/mix_genre.svg?raw=true)
 
 <p align="center">
-  <img src="https://github.com/mir-aidj/djmix-analysis/blob/master/img/mix_genre.svg?raw=true"
+  <img src="img/mix_genre.svg?raw=true"
        alt="DTW"/>
 </p>
 
 <p align="center">
-  <img src="img/dtwviz.png?raw=true"
+  <img src="https://github.com/mir-aidj/djmix-analysis/blob/master/img/mix_genre.svg?raw=true"
        alt="DTW"/>
 </p>
+
 
 
 ## Welcome to GitHub Pages
