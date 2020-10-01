@@ -1,56 +1,51 @@
+> WARNING: Work In Progress!
+
 # Summary
-
-{:toc}
-
-
-![mix genre counts](img/mix_genre.svg?raw=true)
-
-<p align="center">
-  <img src="img/mix_genre.svg?raw=true"
-       alt="DTW"/>
-</p>
-
-<p align="center">
-  <img src="https://github.com/mir-aidj/djmix-analysis/blob/master/img/mix_genre.svg?raw=true"
-       alt="DTW"/>
-</p>
+* We want to understand how DJs create [DJ Mixes](https://en.wikipedia.org/wiki/DJ_mix).
+* We collected and analyze 1,557 real-world DJ mixes including 13,728 tracks
+  from [*1001Tracklists*](https://www.1001tracklists.com/).
+* First, to understand how DJs use audio effects,
+  we perform mix-to-track subsequence alignment using dynamic time warping (DTW).
+* Then, using the alignment results, we also extract cue points,
+  which indicate when tracks start/end in mixes.
+* Finally, we perform analyses with three hypotheses below and show that statistical evidence supports the hypotheses.
+  1) DJs tend not to change tempo and/or key of tracks much to avoid distorting the original essence of the tracks.
+  2) DJs make seamless transitions from one track to another considering the musical structures of tracks.
+  3) DJs tend to select cue points at similar positions in a single track.
 
 
+# 1. The [*1001Tracklists*](https://www.1001tracklists.com/) Dataset
 
-## Welcome to GitHub Pages
+## Statistics
+|Summary statistic                            | All    | Matched |
+| ------------------------------------------- | ------:| -------:|
+|The number of mixes                          | 1,564  | 1,557   |
+|The number of unique tracks                  | 15,068 | 13,728  |
+|The number of played tracks                  | 26,776 | 24,202  |
+|The number of transitions                    | 24,344 | 20,765  |
+|Total length of mixes (in hours)             | 1,577  | 1,570   |
+|Total length of unique tracks (in hours)     | 1,038  | 913     |
+|Average length of mixes (in minutes)         | 60.5   | 60.5    |
+|Average length of unique tracks (in minutes) | 4.1    | 4.0     |
+|Average number of played tracks in a mix     | 17.1   | 15.5    |
+|Average number of transitions in a mix       | 14.5   | 12.9    |
 
-You can use the [editor on GitHub](https://github.com/mir-aidj/djmix-analysis/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+## Mix Genre Distribution
+![mix genre counts](img/genre_mix.svg?raw=true)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Track Genre Distribution
+![track genre counts](img/genre_track.svg?raw=true)
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+# 2. Mix-To-Track Subsequence Alignment
 
-```markdown
-Syntax highlighted code block
+![Mix-to-track subsequence alignment](img/fig_align.svg?raw=true)
 
-# Header 1
-## Header 2
-### Header 3
+<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/645555018&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/popovmusic" title="Alexander Popov" target="_blank" style="color: #cccccc; text-decoration: none;">Alexander Popov</a> · <a href="https://soundcloud.com/popovmusic/interplay-radioshow-250-01-07-19" title="Interplay Radioshow 250 (01-07-19)" target="_blank" style="color: #cccccc; text-decoration: none;">Interplay Radioshow 250 (01-07-19)</a></div>
 
-- Bulleted
-- List
+# 3. Cue Point Extraction
 
-1. Numbered
-2. List
+![Cue point extraction](img/fig_cue.svg?raw=true)
 
-**Bold** and _Italic_ and `Code` text
+# 4. Musicological Analysis of DJ Mixes
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mir-aidj/djmix-analysis/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
