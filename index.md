@@ -63,21 +63,31 @@ The dataset includes a variety of genres but mostly focuses on House and Trance 
 
 # Cue Point Extraction
 
-![Cue point extraction](img/fig_cue.svg?raw=true)
+<p align="center">
+    <img src="img/fig_cue.svg?raw=true">
+</p>
 
 # Musicological Analysis of DJ Mixes
 
 ## Tempo Adjustment Analysis
-![Tempo Adjustment Analysis](img/fig_diff_bpm.svg?raw=true)
+<p align="center">
+    <img src="img/fig_diff_bpm.svg?raw=true">
+</p>
 
 ## Key Change Analysis
-![Key Change Analysis](img/fig_diff_key.svg?raw=true)
+<p align="center">
+    <img src="img/fig_diff_key.svg?raw=true">
+</p>
 
 ## Transition Length Analysis
-![Transition Length Analysis](img/fig_cue_translength.svg?raw=true)
+<p align="center">
+    <img src="img/fig_cue_translength.svg?raw=true">
+</p>
 
 ## Cue Point Agreement Among DJs
-![Cue Point Agreement Among DJs](img/fig_cue_diff.svg?raw=true)
+<p align="center">
+    <img src="img/fig_cue_diff.svg?raw=true">
+</p>
 
 # You can do it too!
 You can do it too!
