@@ -45,17 +45,17 @@ The dataset includes a variety of genres but mostly focuses on House and Trance 
 
 # Mix-To-Track Subsequence Alignment
 
-## Well Aligned Example [[link to tracklist]](https://1001.tl/14jltnct)
+## Well Aligned Example [[Tracklist Link]](https://1001.tl/14jltnct)
 <iframe width="100%" height="140" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/645555018&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/popovmusic" title="Alexander Popov" target="_blank" style="color: #cccccc; text-decoration: none;">Alexander Popov</a> · <a href="https://soundcloud.com/popovmusic/interplay-radioshow-250-01-07-19" title="Interplay Radioshow 250 (01-07-19)" target="_blank" style="color: #cccccc; text-decoration: none;">Interplay Radioshow 250 (01-07-19)</a></div>
 ![Well aligned example](img/fig_align_good.svg?raw=true)
 
 
-## Badly Aligned Example [[link to tracklist]](https://1001.tl/15fulzc1)
+## Badly Aligned Example [[Tracklist Link]](https://1001.tl/15fulzc1)
 <iframe width="100%" height="120" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&feed=%2FAirFM%2Fjustice-live-glastonbury-festival-2017-25-june-2017%2F" frameborder="0" ></iframe>
 ![Badly aligned example](img/fig_align_bad.svg?raw=true)
 
 
-## Key Changed Example [[link to tracklist]](https://1001.tl/bcx2z0t)
+## Key Changed Example [[Tracklist Link]](https://1001.tl/bcx2z0t)
 <iframe width="100%" height="140" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/325077089&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/maxvangeli" title="Max Vangeli" target="_blank" style="color: #cccccc; text-decoration: none;">Max Vangeli</a> · <a href="https://soundcloud.com/maxvangeli/max-vangeli-presents-noface-radio-episode-046" title="Max Vangeli Presents: NoFace Radio - Episode 046" target="_blank" style="color: #cccccc; text-decoration: none;">Max Vangeli Presents: NoFace Radio - Episode 046</a></div>
 ![Key changed example](img/fig_align_keychanged.svg?raw=true)
 
@@ -89,8 +89,12 @@ The dataset includes a variety of genres but mostly focuses on House and Trance 
     <img src="img/fig_cue_diff.svg?raw=true">
 </p>
 
-# You can do it too!
-You can do it too!
+# You can do it too! 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cPo-qzbGLqE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+![Palms Trax DTW Viz](img/palmstrax_dtwviz.svg?raw=true)
+
 
 # Preview of our next move
 
