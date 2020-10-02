@@ -18,6 +18,21 @@
 # 1. The [*1001Tracklists*](https://www.1001tracklists.com/) Dataset
 
 ## Statistics
+
+<table style="width:100%">
+    <tr><th>Summary statistic                            </th><th>All    </th><th>Matched</th></tr>
+    <tr><td>The number of mixes                          </td><td>1,564  </td><td>1,557  </td></tr>
+    <tr><td>The number of unique tracks                  </td><td>15,068 </td><td>13,728 </td></tr>
+    <tr><td>The number of played tracks                  </td><td>26,776 </td><td>24,202 </td></tr>
+    <tr><td>The number of transitions                    </td><td>24,344 </td><td>20,765 </td></tr>
+    <tr><td>Total length of mixes (in hours)             </td><td>1,577  </td><td>1,570  </td></tr>
+    <tr><td>Total length of unique tracks (in hours)     </td><td>1,038  </td><td>913    </td></tr>
+    <tr><td>Average length of mixes (in minutes)         </td><td>60.5   </td><td>60.5   </td></tr>
+    <tr><td>Average length of unique tracks (in minutes) </td><td>4.1    </td><td>4.0    </td></tr>
+    <tr><td>Average number of played tracks in a mix     </td><td>17.1   </td><td>15.5   </td></tr>
+    <tr><td>Average number of transitions in a mix       </td><td>14.5   </td><td>12.9   </td></tr>
+</table>
+
 |Summary statistic                            | All    | Matched |
 | ------------------------------------------- | ------:| -------:|
 |The number of mixes                          | 1,564  | 1,557   |
@@ -40,13 +55,25 @@
 
 # 2. Mix-To-Track Subsequence Alignment
 
+## Well aligned example
+
+## Badly aligned example
+
+## Key changed example
+
+
 ![Mix-to-track subsequence alignment](img/fig_align.svg?raw=true)
 
-<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/645555018&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/popovmusic" title="Alexander Popov" target="_blank" style="color: #cccccc; text-decoration: none;">Alexander Popov</a> · <a href="https://soundcloud.com/popovmusic/interplay-radioshow-250-01-07-19" title="Interplay Radioshow 250 (01-07-19)" target="_blank" style="color: #cccccc; text-decoration: none;">Interplay Radioshow 250 (01-07-19)</a></div>
+<iframe width="100%" height="140" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/645555018&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/popovmusic" title="Alexander Popov" target="_blank" style="color: #cccccc; text-decoration: none;">Alexander Popov</a> · <a href="https://soundcloud.com/popovmusic/interplay-radioshow-250-01-07-19" title="Interplay Radioshow 250 (01-07-19)" target="_blank" style="color: #cccccc; text-decoration: none;">Interplay Radioshow 250 (01-07-19)</a></div>
 
 # 3. Cue Point Extraction
 
 ![Cue point extraction](img/fig_cue.svg?raw=true)
 
 # 4. Musicological Analysis of DJ Mixes
+
+# You can do it too!
+You can do it too!
+
+# Preview of our next move
 
