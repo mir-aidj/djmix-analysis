@@ -9,7 +9,7 @@
   [DTW](https://www.audiolabs-erlangen.de/resources/MIR/FMP/C7/C7S2_SubsequenceDTW.html).
 * Then, using the alignment results, we also extract cue points,
   which indicate when tracks start/end in mixes.
-* Finally, we perform analyses with three hypotheses below and show that statistical evidence supports the hypotheses.
+* Finally, we perform analyses with three hypotheses below and show that statistical evidence supports the hypotheses:
     1. DJs tend not to change tempo and/or key of tracks much to avoid distorting the original essence of the tracks.
     2. DJs make seamless transitions from one track to another considering the musical structures of tracks.
     3. DJs tend to select cue points at similar positions in a single track.
@@ -89,9 +89,16 @@ The dataset includes a variety of genres but mostly focuses on House and Trance 
     <img src="img/fig_cue_diff.svg?raw=true">
 </p>
 
-# You can do it too! 
+# You can do it too! [[GitHub Repo Link]](https://github.com/mir-aidj/djmix-analysis)
+We published the code for mix-to-track subsequence alignment, cue point extraction,
+DTW visualization and the tempo analysis.
+The code uses the cool mix below by Palms Trax as an input data.
+ 
+<p align="center">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/cPo-qzbGLqE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cPo-qzbGLqE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+And you will get the visualization below after running the code!
 
 ![Palms Trax DTW Viz](img/palmstrax_dtwviz.svg?raw=true)
 
