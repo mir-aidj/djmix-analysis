@@ -15,7 +15,7 @@
     3. DJs tend to select cue points at similar positions in a single track.
 
 
-# 1. The [*1001Tracklists*](https://www.1001tracklists.com/) Dataset
+# The [*1001Tracklists*](https://www.1001tracklists.com/) Dataset
 
 ## Summary Statistics
 
@@ -33,39 +33,50 @@
     <tr><td>Average number of transitions in a mix       </td><td>14.5   </td><td>12.9   </td></tr>
 </table>
 
+## Genre Distribution
+The dataset includes a variety of genres but mostly focuses on House and Trance music as shown below.
 
-
-
-## Mix Genre Distribution
+### Mix Genre Distribution
 ![mix genre counts](img/genre_mix.svg?raw=true)
 
-## Track Genre Distribution
+### Track Genre Distribution
 ![track genre counts](img/genre_track.svg?raw=true)
 
 
-# 2. Mix-To-Track Subsequence Alignment
+# Mix-To-Track Subsequence Alignment
 
-## Well aligned example [[link to tracklist]](https://1001.tl/14jltnct)
+## Well Aligned Example [[link to tracklist]](https://1001.tl/14jltnct)
 <iframe width="100%" height="140" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/645555018&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/popovmusic" title="Alexander Popov" target="_blank" style="color: #cccccc; text-decoration: none;">Alexander Popov</a> · <a href="https://soundcloud.com/popovmusic/interplay-radioshow-250-01-07-19" title="Interplay Radioshow 250 (01-07-19)" target="_blank" style="color: #cccccc; text-decoration: none;">Interplay Radioshow 250 (01-07-19)</a></div>
 ![Well aligned example](img/fig_align_good.svg?raw=true)
 
 
-## Badly aligned example [[link to tracklist]](https://1001.tl/15fulzc1)
+## Badly Aligned Example [[link to tracklist]](https://1001.tl/15fulzc1)
 <iframe width="100%" height="120" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&feed=%2FAirFM%2Fjustice-live-glastonbury-festival-2017-25-june-2017%2F" frameborder="0" ></iframe>
 ![Badly aligned example](img/fig_align_bad.svg?raw=true)
 
 
-## Key changed example [[link to tracklist]](https://1001.tl/bcx2z0t)
+## Key Changed Example [[link to tracklist]](https://1001.tl/bcx2z0t)
 <iframe width="100%" height="140" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/325077089&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/maxvangeli" title="Max Vangeli" target="_blank" style="color: #cccccc; text-decoration: none;">Max Vangeli</a> · <a href="https://soundcloud.com/maxvangeli/max-vangeli-presents-noface-radio-episode-046" title="Max Vangeli Presents: NoFace Radio - Episode 046" target="_blank" style="color: #cccccc; text-decoration: none;">Max Vangeli Presents: NoFace Radio - Episode 046</a></div>
 ![Key changed example](img/fig_align_keychanged.svg?raw=true)
 
 
 
-# 3. Cue Point Extraction
+# Cue Point Extraction
 
 ![Cue point extraction](img/fig_cue.svg?raw=true)
 
-# 4. Musicological Analysis of DJ Mixes
+# Musicological Analysis of DJ Mixes
+
+## Tempo Adjustment Analysis
+![Tempo Adjustment Analysis](img/fig_diff_bpm.svg?raw=true)
+
+## Key Change Analysis
+![Key Change Analysis](img/fig_diff_key.svg?raw=true)
+
+## Transition Length Analysis
+
+
+## Cue Point Agreement Among DJs
 
 # You can do it too!
 You can do it too!
