@@ -74,9 +74,10 @@ The dataset includes a variety of genres but mostly focuses on House and Trance 
 ![Key Change Analysis](img/fig_diff_key.svg?raw=true)
 
 ## Transition Length Analysis
-
+![Transition Length Analysis](img/fig_cue_translength.svg?raw=true)
 
 ## Cue Point Agreement Among DJs
+![Cue Point Agreement Among DJs](img/fig_cue_diff.svg?raw=true)
 
 # You can do it too!
 You can do it too!
