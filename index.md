@@ -2,13 +2,13 @@
 
 # Summary
 * We want to understand how DJs create [DJ Mixes](https://en.wikipedia.org/wiki/DJ_mix).
-* We collected and analyze 1,557 real-world DJ mixes including 13,728 tracks
+* Therefore, we collected and analyze 1,557 real-world DJ mixes including 13,728 tracks
   from [*1001Tracklists*](https://www.1001tracklists.com/).
-* First, to understand how DJs use audio effects,
+* To understand how DJs use audio effects,
   we perform mix-to-track subsequence alignment using
   [DTW](https://www.audiolabs-erlangen.de/resources/MIR/FMP/C7/C7S2_SubsequenceDTW.html).
 * Then, using the alignment results, we also extract cue points,
-  which indicate when tracks start/end in mixes.
+  which indicate when individual tracks start/end in mixes.
 * Finally, we perform analyses with three hypotheses below and show that statistical evidence supports the hypotheses:
     1. DJs tend not to change tempo and/or key of tracks much to avoid distorting the original essence of the tracks.
     2. DJs make seamless transitions from one track to another considering the musical structures of tracks.
@@ -17,7 +17,17 @@
 
 # The [*1001Tracklists*](https://www.1001tracklists.com/) Dataset
 
+We obtained a collection of DJ mix metadata via direct personal communication with 1001Tracklists.
+Each entry of mixes contains a list of track, boundary timestamps and genre.
+It also contains web links to the audio files of the mixes and tracks.
+We downloaded the audio files separately from the linked media service websites on our own.
+
 ## Summary Statistics
+The table below summarizes statistics of the dataset.
+The original size of the dataset is denoted as ‘All’ and the size after
+filtering as ‘Matched’.
+Note that the number of played tracks is greater than the number of unique tracks
+as a track can be played in multiple mixes.
 
 <table style="width:100%">
     <tr><th>Summary statistic                            </th><th>All    </th><th>Matched</th></tr>
@@ -37,13 +47,22 @@
 The dataset includes a variety of genres but mostly focuses on House and Trance music as shown below.
 
 ### Mix Genre Distribution
-![mix genre counts](img/genre_mix.svg?raw=true)
+![mix genre counts](img/fig_genre_mix.svg?raw=true)
 
 ### Track Genre Distribution
-![track genre counts](img/genre_track.svg?raw=true)
+![track genre counts](img/fig_genre_track.svg?raw=true)
 
 
 # Mix-To-Track Subsequence Alignment
+The objective of mix-to-track subsequence alignment is to
+find an optimal alignment path between a subsequence of a
+mix and a track used in the mix.
+We compute the alignment by applying
+[subsequence DTW](https://www.audiolabs-erlangen.de/resources/MIR/FMP/C7/C7S2_SubsequenceDTW.html)
+to beat synchronous features such as MFCC and chroma features.
+
+Three examples below visualize the alignment results of mixes.
+If you click the tracklist links, you can listen and see individual tracks used in the mixes.  
 
 ## Well Aligned Example [[Tracklist Link]](https://1001.tl/14jltnct)
 <iframe width="100%" height="140" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/645555018&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/popovmusic" title="Alexander Popov" target="_blank" style="color: #cccccc; text-decoration: none;">Alexander Popov</a> · <a href="https://soundcloud.com/popovmusic/interplay-radioshow-250-01-07-19" title="Interplay Radioshow 250 (01-07-19)" target="_blank" style="color: #cccccc; text-decoration: none;">Interplay Radioshow 250 (01-07-19)</a></div>
