@@ -1,5 +1,3 @@
-> WARNING: Work In Progress!
-
 # Summary
 * We want to understand how DJs create [DJ Mixes](https://en.wikipedia.org/wiki/DJ_mix).
 * Therefore, we collected and analyze 1,557 real-world DJ mixes including 13,728 tracks
@@ -102,6 +100,8 @@ The figure below is a zoomed-in view of a visualization of mix-to-track subseque
 extracted cue points.
 The two alignment paths drift from the diagonal lines in the transition region
 (between 2310 and 2324 in mix beat) because the two tracks cross-fades.
+Based on this observation, we detect the cue-out/-in point of the previous/next track by
+finding the last/first beat where preceding/succeeding 32 beats have diagonal moves in the alignment path.
 <p align="center">
     <img src="img/fig_cue.svg?raw=true">
 </p>
@@ -159,15 +159,10 @@ share in deciding the cue points.
 We published the code for mix-to-track subsequence alignment, cue point extraction,
 DTW visualization and the tempo analysis.
 The code uses the cool mix below by Palms Trax as an input data.
- 
 <p align="center">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/cPo-qzbGLqE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
-
 And you will get the visualization below after running the code!
-
 ![Palms Trax DTW Viz](img/palmstrax_dtwviz.svg?raw=true)
 
-
-# Preview of our next move
 
