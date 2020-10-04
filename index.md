@@ -145,15 +145,11 @@ they make transitions or set cue points.
 </p>
 
 ## Cue Point Agreement Among DJs
-we collected all extracted cue points for each track and computed the
+We collected all extracted cue points for each track and computed the
 statistics of deviations in cue-in points and cue-out points
-among DJs. Specifically, we computed all possible pairs
-and their distances separately for cue-in points and cue-out
-points. Since the two distributions were almost equal, we
-combined them into a single distribution in the figure below. From
-the results, 23.6% of the total cue point pairs have zero deviation. 40.4% of them were within one measure (4 beats),
-73.6% were within 8 measures and 86.2% were within 16
-measures. This indicates that there are some rules that DJs
+among DJs. From the results, 23.6% of the total cue point pairs have zero deviation.
+40.4% of them were within one measure (4 beats), 73.6% were within 8 measures and 
+86.2% were within 16 measures. This indicates that there are some rules that DJs
 share in deciding the cue points. 
 <p align="center">
     <img src="img/fig_cue_diff.svg?raw=true">
