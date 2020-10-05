@@ -1,4 +1,4 @@
-# [WIP] A Computational Analysis of Real-World DJ Mixes using Mix-To-Track Subsequence Alignment
+# A Computational Analysis of Real-World DJ Mixes using Mix-To-Track Subsequence Alignment
 > This repository contains the code for "A Computational Analysis of Real-World DJ Mixes using Mix-To-Track Subsequence Alignment"
 > *Proceedings of the 21st International Society for Music Information Retrieval Conference (ISMIR), 2020.*
 > Taejun Kim, Minsuk Choi, Evan Sacks, Yi-Hsuan Yang, and Juhan Nam
