@@ -169,5 +169,5 @@ And you will get the visualization below after running the code!
 We are working on more detailed explanations about DJ mixing techniques!
 The figure below is extracted EQ curves explaining how a DJ controlled EQ knobs on a DJ system.
 Please stay tuned for our next paper!
-More fun is coming ✨
+More fun is coming 💕
 ![EQ](img/fig_eq.svg?raw=true)
