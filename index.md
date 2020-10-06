@@ -155,7 +155,7 @@ share in deciding the cue points.
     <img src="img/fig_cue_diff.svg?raw=true">
 </p>
 
-# You can do it too! [[GitHub Repo Link]](https://github.com/mir-aidj/djmix-analysis)
+# You Can Do It Too! [[GitHub Repo Link]](https://github.com/mir-aidj/djmix-analysis)
 We published the code for mix-to-track subsequence alignment, cue point extraction,
 DTW visualization and the tempo analysis.
 The code uses the cool mix below by Palms Trax as an input data.
@@ -165,4 +165,9 @@ The code uses the cool mix below by Palms Trax as an input data.
 And you will get the visualization below after running the code!
 ![Palms Trax DTW Viz](img/palmstrax_dtwviz.svg?raw=true)
 
-
+# A Preview of Our Next Move
+We are working on more detailed explanations about DJ mixing techniques!
+The figure below is extracted EQ curves explaining how a DJ controlled EQ knobs on a DJ system.
+Please stay tuned for our next paper!
+More fun is coming ✨
+![EQ](img/fig_eq.svg?raw=true)
