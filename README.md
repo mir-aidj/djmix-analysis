@@ -1,12 +1,12 @@
 # A Computational Analysis of Real-World DJ Mixes using Mix-To-Track Subsequence Alignment
-> This repository contains the code for "A Computational Analysis of Real-World DJ Mixes using Mix-To-Track Subsequence Alignment"
+> This repository contains the code for "[A Computational Analysis of Real-World DJ Mixes using Mix-To-Track Subsequence Alignment](https://arxiv.org/abs/2008.10267)"
 > *Proceedings of the 21st International Society for Music Information Retrieval Conference (ISMIR), 2020.*
 > Taejun Kim, Minsuk Choi, Evan Sacks, Yi-Hsuan Yang, and Juhan Nam
 
 This repository contains the code for:
-1) mix-to-track subsequence alignment
-2) mix segmentation
-3) subsequence DTW visualization
+1) Mix-to-track subsequence alignment
+2) Mix segmentation
+3) Subsequence DTW visualization
 4) BPM change analysis
 
 We are going to use the awesome mix below by Palms Trax since it is the author's recent favorite mix.
